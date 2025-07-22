@@ -1,4 +1,4 @@
-# Diabetic Retinopathy Classification Pipeline
+## Diabetic Retinopathy Classification Pipeline
 
 Modular pipeline for diabetic retinopathy classification using:
 - Deep feature extraction with ResNet50
