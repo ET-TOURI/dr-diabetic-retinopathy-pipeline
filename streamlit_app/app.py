@@ -6,7 +6,7 @@ from utils.gradcam import generate_gradcam
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.resnet import preprocess_input
 
-st.title("🧠 DR Dashboard — Grad-CAM & Prediction")
+st.title("DR Dashboard — Grad-CAM & Prediction")
 
 uploaded_file = st.file_uploader("Upload a fundus image", type=["jpg", "png"])
 model = load_model("models/resnet_dr_finetuned.h5")
